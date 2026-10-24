@@ -1,0 +1,2 @@
+document.querySelectorAll('[data-link]').forEach(function(a){var u=(window.SITE_LINKS||{})[a.dataset.link]||'';
+if(!u||u.indexOf('BUY_LINK')===0){a.href='#';a.addEventListener('click',function(e){e.preventDefault();alert('Checkout coming soon.');});}else a.href=u;});

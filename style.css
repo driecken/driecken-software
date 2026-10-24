@@ -1,0 +1,5 @@
+body{font-family:system-ui,sans-serif;margin:0;color:#1a1a1a;line-height:1.5}header,footer{padding:16px 24px;background:#f5f6f8}
+.logo{font-weight:700;text-decoration:none;color:#1a1a1a}main{max-width:900px;margin:0 auto;padding:24px}.tag{font-size:1.2em;color:#444}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.card{display:block;border:1px solid #ddd;border-radius:10px;padding:16px;text-decoration:none;color:inherit}
+.card:hover{border-color:#4f7cff}.price{font-weight:700;font-size:1.3em}.offers{display:flex;gap:16px;flex-wrap:wrap}.offer{border:1px solid #ddd;border-radius:10px;padding:16px;min-width:220px}
+.note{color:#666;margin-bottom:12px}.btn{display:inline-block;background:#4f7cff;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none}footer{text-align:center;color:#666;font-size:.9em}.small{color:#666}
